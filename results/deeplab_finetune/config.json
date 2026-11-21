@@ -1,0 +1,16 @@
+{
+ "name": "deeplab_finetune",
+ "model": "deeplab",
+ "loss": "wce_dice",
+ "lr": 0.001,
+ "freeze_epochs": 5,
+ "encoder_lr_mult": 0.1,
+ "description": "DeepLabV3+, frozen 5 epochs then full fine-tuning (encoder LR x0.1)",
+ "epochs": 40,
+ "img_size": [
+  320,
+  640
+ ],
+ "batch_size": 8,
+ "seed": 42
+}

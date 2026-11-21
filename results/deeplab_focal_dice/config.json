@@ -1,0 +1,16 @@
+{
+ "name": "deeplab_focal_dice",
+ "model": "deeplab",
+ "loss": "focal_dice",
+ "lr": 0.001,
+ "freeze_epochs": 5,
+ "encoder_lr_mult": 0.1,
+ "description": "DeepLabV3+, fine-tuned, Focal + Dice (loss change)",
+ "epochs": 40,
+ "img_size": [
+  320,
+  640
+ ],
+ "batch_size": 8,
+ "seed": 42
+}

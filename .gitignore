@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+outputs/
+
+# Trained models are too big for git: they are attached to the GitHub Release
+*.pth
+results/export.zip
+
+# Node / Expo
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+.DS_Store

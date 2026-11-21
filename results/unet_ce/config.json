@@ -1,0 +1,16 @@
+{
+ "name": "unet_ce",
+ "model": "unet",
+ "loss": "ce",
+ "lr": 0.001,
+ "freeze_epochs": 0,
+ "encoder_lr_mult": 1.0,
+ "description": "U-Net, plain cross-entropy (baseline)",
+ "epochs": 40,
+ "img_size": [
+  320,
+  640
+ ],
+ "batch_size": 8,
+ "seed": 42
+}
